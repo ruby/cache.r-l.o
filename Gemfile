@@ -1,4 +1,4 @@
-ruby '~> 2.5.0' if ENV['PORT'] || ENV['BUILD_DIR']
+ruby '~> 2.5.0'
 source 'https://rubygems.org'
 
 gem 'nokogiri'
