@@ -14,6 +14,10 @@ ul {
 </style>
   </head>
   <body>
+    <%- if @prefix.empty? -%>
+      <h1>cache.ruby-lang.org</h1>
+      <p>Need programmatic access? <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/v2-RESTBucketGET.html">S3 List Objects V2 API</a> is available: <a href="/?list-type=2&delimiter=/&prefix=pub/ruby/">/?list-type=2&delimiter=/&prefix=pub/ruby/</a></p>
+    <%- end -%>
     <h4><%= @prefix %></h4>
     <ul>
       <%- @prefixes.each do |prefix| -%>
