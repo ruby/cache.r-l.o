@@ -1,21 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    erubi (1.7.1)
-    mini_portile2 (2.3.0)
-    mustermann (1.0.2)
-    nokogiri (1.8.3)
-      mini_portile2 (~> 2.3.0)
-    puma (3.11.4)
-    rack (2.0.5)
-    rack-protection (2.0.3)
+    erubi (1.9.0)
+    mini_portile2 (2.4.0)
+    mustermann (1.0.3)
+    nio4r (2.5.2)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
+    puma (4.3.0)
+      nio4r (~> 2.0)
+    rack (2.0.7)
+    rack-protection (2.0.7)
       rack
-    sinatra (2.0.3)
+    sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.3)
+      rack-protection (= 2.0.7)
       tilt (~> 2.0)
-    tilt (2.0.8)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -27,4 +29,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
