@@ -36,6 +36,8 @@ class App < Sinatra::Base
     end
   end
 
+  set :erb, escape_html: true
+
   get '/*prefix' do
     unless params[:prefix].empty? || params[:prefix][-1] == '/'
       return redirect "#{params[:prefix]}/"
