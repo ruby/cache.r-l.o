@@ -1,4 +1,4 @@
-ruby '~> 2.6.4' if ENV['IS_HEROKU'] || ENV['STACK']
+ruby '~> 2.7.4' if ENV['IS_HEROKU'] || ENV['STACK']
 source 'https://rubygems.org'
 
 gem 'nokogiri'
