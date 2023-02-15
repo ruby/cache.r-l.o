@@ -2,16 +2,16 @@ GEM
   remote: https://rubygems.org/
   specs:
     erubi (1.10.0)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.1)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
-    nokogiri (1.13.10)
+    nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     puma (4.3.12)
       nio4r (~> 2.0)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (2.2.6.2)
     rack-protection (2.2.3)
       rack
