@@ -9,7 +9,7 @@ GEM
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    puma (4.3.12)
+    puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.2)
@@ -29,7 +29,7 @@ PLATFORMS
 DEPENDENCIES
   erubi
   nokogiri
-  puma (~> 4.3)
+  puma
   sinatra
 
 BUNDLED WITH
