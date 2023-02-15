@@ -14,7 +14,7 @@ class App < Sinatra::Base
       prefixes = []
       loop do
         token_param = token ? "&continuous-token=#{URI.encode_www_form_component(token)}" : nil
-        xml = Nokogiri::XML(open("#{BUCKET_URL}/?list-type=2&delimiter=/&prefix=#{URI.encode_www_form_component(prefix)}#{token_param}", 'r', &:read))
+        xml = Nokogiri::XML(URI.open("#{BUCKET_URL}/?list-type=2&delimiter=/&prefix=#{URI.encode_www_form_component(prefix)}#{token_param}", 'r', &:read))
         result = xml.at('ListBucketResult')
         token = result.at('NextContinuationToken')&.inner_text
         result.search('Contents').each do |content|
