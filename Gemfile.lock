@@ -2,11 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     erubi (1.12.0)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.7.0)
-    nokogiri (1.16.2)
+    nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     puma (6.4.2)
